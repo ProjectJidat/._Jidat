@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: Tinos;
+    text-align: center;
+    background: linear-gradient(65deg,#6e337b, #e396cc, #863453);
+    background-repeat: no-repeat;
+}
+
+html, body {
+    min-height: 100%;
+    height: auto;   
+    width: 100%;
+    width: auto;
+}
+
+@media only screen and (max-width: 599px) {
+    .btn{
+        width: 360px;
+        height: 95px;
+        margin: 20px;
+        background: #863453;
+        border: none;
+        font-size: larger;
+        padding: 20px;
+        margin-top: 20px;
+
+    }
+
+    .btn:hover{
+        box-shadow: 6px 6px 5px #6e337b;
+    }
+
+    .btnlink{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .Header-img{
+        background: #000;
+        border-radius: 50%;
+        border: 5px solid #FFD1DC;
+        margin: 20px; 
+        width: 160px;
+        margin-top: 100px;
+    }
+
+    .Header-link{
+        font-size: 22px;
+        color: #863453;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin-top: 68px;
+    }
+}   
+
+@media only screen and (min-width: 600px ) and (max-width: 768px) {
+
+    .btn{
+        width: 500px;
+        height: 95px;
+        margin: 20px;
+        background: #863453;
+        border: none;
+        font-size: larger;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .btn:hover{
+        box-shadow: 6px 6px 5px #6e337b;
+    }
+
+    .btnlink{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .Header-img{
+        background: #000;
+        border-radius: 50%;
+        border: 5px solid #FFD1DC;
+        margin: 20px; 
+        width: 160px;
+        margin-top: 100px;
+    }
+
+    .Header-link{
+        font-size: 22px;
+        color: #863453;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin-top: 68px;
+    }
+} 
+
+@media only screen and (min-width: 769px ) and (max-width: 1583px) {
+
+    .btn{
+        width: 750px;
+        height: 100px;
+        margin: 20px;
+        background: #863453;
+        border: none;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .btn:hover{
+        box-shadow: 6px 6px 5px #6e337b;
+    }
+
+    .btnlink{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .Header-img{
+        background: #000;
+        border-radius: 50%;
+        border: 5px solid #FFD1DC;
+        margin: 20px; 
+        width: 200px;
+        margin-top: 100px;
+    }
+
+    .Header-link{
+        font-size: 22px;
+        color: #863453;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin-top: 68px;
+    }
+} 
+
+@media only screen and (min-width: 1583px) {
+    .btn{
+        width: 850px;
+        height: 130px;
+        margin: 20px;
+        background: #863453;
+        border: none;
+        font-size: 25px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .btn:hover{
+        box-shadow: 6px 6px 5px #6e337b;
+    }
+    
+    .btnlink{
+        font-size: 25px;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .Header-img{
+        background: #000;
+        border-radius: 50%;
+        border: 5px solid #FFD1DC;
+        margin: 20px; 
+        width: 200px;
+        margin-top: 100px;
+    }
+    
+    .Header-link{
+        font-size: 25px;
+        color: #863453;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin-top: 40px;
+    }
+}
